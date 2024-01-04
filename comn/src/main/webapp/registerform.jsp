@@ -10,7 +10,9 @@
 <title>커뮤니티</title>
 </head>
 <body>
-<%@ include file="include/navbar.jsp" %>
+<jsp:include page="include/navbar.jsp">
+	<jsp:param value="register" name="menu"/>
+</jsp:include>
 <div class="container">
 	<div class="row">
 		<div class="col-12">
@@ -61,7 +63,7 @@
 				</div>
 				<div class="form-group">
 					<label class="form-label">전화번호</label>
-					<input type="text" class="form-control" name="tels"/>
+					<input type="text" class="form-control" name="tel"/>
 				</div>
 				<div class="text-end">
 					<a href="" class="btn btn-secondary">취소</a>
