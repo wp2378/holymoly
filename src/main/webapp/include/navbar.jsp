@@ -46,6 +46,12 @@
 			<li class="nav-item">
 				<a class="nav-link <%="product".equals(menu) ? "active" : "" %>" href="/comn/product/list.jsp">상품게시판</a>
 			</li>
+			<li class="nav-item">
+				<a class="nav-link <%="hr".equals(menu) ? "active" : "" %>" href="/comn/hr/dept.jsp">인사관리</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link <%="movie".equals(menu) ? "active" : "" %>" href="/comn/boxoffice/search.jsp">박스오피스</a>
+			</li>
 		</ul>
 <%
 	if(loginUser != null) {
